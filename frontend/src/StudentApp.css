@@ -1,0 +1,73 @@
+.StudentApp {
+  text-align: center;
+}
+
+.StudentApp-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .StudentApp-logo {
+    animation: StudentApp-logo-spin infinite 20s linear;
+  }
+}
+
+.StudentApp-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.StudentApp-link {
+  color: #61dafb;
+}
+
+@keyframes StudentApp-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  width: 100%;
+  border-spacing: 0px;
+  border-collapse: separate;
+  border-left: thick solid gray;
+  border-right: thick solid gray;
+}
+thead tr{
+  border-bottom: thick solid gray;
+  color: yellow
+}
+th {
+  min-width: 15%;
+  border-top: thick solid gray;
+  border-bottom: thick solid gray;
+}
+td{
+  padding: 5px;
+  margin: 0;
+  border-bottom: thin solid gray;
+}
+td:not(:last-child), th:not(:last-child){
+  border-right: thick solid gray;
+}
+button {
+  border-radius: 10px;
+  padding: 10px 5px;
+  background-color: blue;
+  color: white;
+}
+
+label {
+  color: yellow;
+}
